@@ -1,0 +1,10 @@
+Workflow
+
+The current Trending Words to use in Youtube Video Titles
+
+Steps:
+1. Get the trending videos on Youtube
+2. Get all title names, and take every word from every title except for prepositions and symbols
+3. Query each word with the Youtube search function, resulting in videos found by Youtube with that word being the keyword to these videos
+4. Get the average view count of the first 10 videos resulted from this word.
+5. Find the word with the highest average view count when queried on youtube's search function

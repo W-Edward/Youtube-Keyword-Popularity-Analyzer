@@ -1,0 +1,56 @@
+body {
+    height: 100%;
+    background-color: #f1f4f8;
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    margin-top: 10rem;
+    width: 100%;
+}
+
+h2, #search_bar {
+    text-align: center;  
+    margin: auto;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 25pt;
+    margin-bottom: 2rem;
+}
+
+input[type=text]{
+    border: 0;
+    border-radius: 30px;
+    height: 60px;
+    width: 200px;
+    font-size: 12pt;
+    padding-left: 3rem;
+    background-color: white;
+}
+
+input[type=text]:focus{
+    outline:none!important;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#footer span{
+    font-family: Arial;
+    font-size: 10pt;
+    margin-left: 5px;
+    margin-bottom: 2rem;
+}
+
+
+
+

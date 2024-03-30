@@ -1,0 +1,43 @@
+<!doctype html>
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="../stylesheets/search_style.css")
+    body
+        div#search_tab
+            span#home &#8592;
+            h2 Youtube Trends
+        div#content
+            div#compare_tab
+                div#keywords
+                    div#main_keyword
+                        div#graph_color
+                        input(type="text" id="search" name="search_engine" placeholder="Enter Keyword Here" value= keyword required)
+                    div#extra_keyword
+                        div#compare_graph_color
+                        input(type="text" id="search_compare" name="search_engine_compare" placeholder="Compare" required)
+                div#graph
+                    div#spinner
+            div#statistics_tab
+                div#statistics
+                    h2 Details
+                    span#mean Mean Views:!{' '}
+                    span#gradient Linear Gradient:!{' '}
+                    span#peak Peak Popularity:!{' '} 
+                    span#minimum Minimum Views:!{' '} 
+                    span#maximum Maximum Views:!{' '} 
+                    span#intercept Interest Intercept:!{' '} 
+                    span#current Current Interest:!{' '}  
+                    span#note Note: View Counts are based on the ten most relevant videos found by the Youtube Search Algorithm
+                div#recommended_words_tab
+                    h2 Trending Words
+                    div#recommended_words
+                        span foo
+                        span bar
+                        span lorem
+                        span ipsum
+                        span spongebob
+                        span patrick
+
+        script(src="../javascripts/search.js")
