@@ -9,7 +9,7 @@ Created with a bunch of Python libraries and Javascript, this is a search engine
    ![image](https://github.com/W-Edward/Youtube-Daily-Popular-Keywords/assets/36920869/8e46109e-7d87-4837-9ad3-11618fb72282)
 5. Enter a keyword in which you would like to find the current trend of in Youtube and press Enter. (For example, I put "Hong Kong" as the keyword)
    ![image](https://github.com/W-Edward/Youtube-Daily-Popular-Keywords/assets/36920869/78fb6356-1e23-40d3-9edf-8b2d996c8554)
-6. After pressing Enter, you should be directed to another page, in this case showing the popularity trend of the keyword "Hong Kong" in Youtube.
+6. After pressing Enter, you should be directed to another page, in this case showing the popularity trend of the keyword "Hong Kong" in Youtube. A linear regression line is also displayed with some basic statistics on the top right.
    ![image](https://github.com/W-Edward/Youtube-Daily-Popular-Keywords/assets/36920869/c0d4fefa-4eba-4d3a-a781-80f0c79b2ce2)
 
 #Notes:
