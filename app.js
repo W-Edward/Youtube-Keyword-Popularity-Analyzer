@@ -41,8 +41,8 @@ app.get('/search', (req, res) => {
             console.log(data.toString());
             console.log(JSON.parse(data.toString()));
             output = JSON.parse(data.toString());
-            res.status(200).json({"mean": output.mean, "gradient": output.gradient, "peak": output.peak, "minimum": output.minimum, "maximum": output.maximum,
-                                  "intercept": output.intercept, "currentInterest": output.currentInterest,"image_link": `graphs/${keyword}.png`});
+            res.status(200).json({"mean": output.mean, "gradient": "-", "peak": output.peak, "minimum": output.minimum, "maximum": output.maximum,
+                                  "intercept": "-", "currentInterest": "-","image_link": `graphs/${keyword}.png`});
             sent = 1;
         });
 

@@ -27,21 +27,21 @@ async function initial_page_load(){
         if (response.status == 200){
             var data = await response.json();
             var mean = data.mean.toString();
-            var gradient = data.gradient.toString();
+            // var gradient = data.gradient.toString();
             var peak = data.peak;
             var minimum = data.minimum.toString();
             var maximum = data.maximum.toString();
-            var intercept = data.intercept.toString();
-            var current = data.currentInterest.toString();
+            // var intercept = data.intercept.toString();
+            // var current = data.currentInterest.toString();
             var img_link = data.image_link;
 
             meanField.innerHTML = `Mean Views: <b>${mean}</b>`;
-            gradientField.innerHTML = `Linear Gradient: <b>${gradient}</b>`;
+            // gradientField.innerHTML = `Linear Gradient: <b>${gradient}</b>`;
             peakField.innerHTML = `Peak Popularity: <b>${peak}</b>`;
             minimumField.innerHTML = `Minimum Views: <b>${minimum}</b>`;
             maximumField.innerHTML = `Maximum Views: <b>${maximum}</b>`;
-            interceptField.innerHTML = `Interest Intercept: <b>${intercept}</b>`;
-            currentInterestField.innerHTML = `Current Interest: <b>${current}</b>`;
+            // interceptField.innerHTML = `Interest Intercept: <b>${intercept}</b>`;
+            // currentInterestField.innerHTML = `Current Interest: <b>${current}</b>`;
 
             graph.innerHTML = 
             `
